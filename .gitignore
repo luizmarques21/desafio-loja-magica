@@ -1,0 +1,59 @@
+# IDE generated files #
+#######################
+*.project
+*.buildpath
+*.settings
+*.metadata
+*.sublime-project
+*.vscode
+*.sublime-workspace
+*~
+.migrationsshlogfile
+nbproject
+.vscode
+.idea
+.history
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+error_log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vim files
+*.swp
+*.swo
+tags
+
+# Diviner
+.divinercache
+
+# libphutil
+.phutil_module_cache
+
+# uploads ckeditor
+comum/uploads
+
+# Composer
+
+composer.lock
+
+vendor
+node_modules
+
+var
+
+# NPM
+
+node_modules
+cache.properties

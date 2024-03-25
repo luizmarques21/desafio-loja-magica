@@ -1,0 +1,23 @@
+{
+  "name": "desafio/lojamagica",
+  "description": "Programa de Trainee - Avaliação",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Luiz Marques",
+      "email": "mariel.marques21@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["Controller"],
+    "psr-4": {
+      "DAO\\": "DAO",
+      "Infra\\": "Infra",
+      "Model\\": "Model"
+    }
+  },
+  "require": {
+    "box/spout": "^3.3",
+    "phpmailer/phpmailer": "^6.9"
+  }
+}
